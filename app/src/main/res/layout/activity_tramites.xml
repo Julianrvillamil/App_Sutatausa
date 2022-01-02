@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondosutagris"
+    tools:context=".Tramites">
+
+    <Button
+        android:id="@+id/boton_PagoImpPredial"
+        android:layout_width="411dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/naranja_oficial"
+        android:onClick="openCrediflores"
+        android:text="Pago impuesto predial"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/boton_PagoLicConstruccion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/boton_PagoLicConstruccion"
+        android:layout_width="411dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/naranja_oficial"
+        android:onClick="openCrediflores"
+        android:text="Pago lic. construcción"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/boton_OtrosPagos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/boton_OtrosPagos"
+        android:layout_width="411dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/naranja_oficial"
+        android:onClick="openCrediflores"
+        android:text="Otros pagos"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/imageFilterView"
+        android:layout_width="414dp"
+        android:layout_height="406dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/boton_PagoImpPredial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pagos" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Alcaldía de Sutatausa</string>
+    <string name="nombre_apellido">Nombre y Apellido</string>
+    <string name="ingrese_email">Ingrese Email *</string>
+    <string name="ingrese_telefono">Ingrese Telefono</string>
+    <string name="ingrese_mensaje">Ingrese mensaje *</string>
+    <string name="boton_enviar_formulario">ENVIAR FORMULARIO</string>
+    <string name="title_activity_directorio">Directorio</string>
+    <string name="large_text">
+        <font color='grey'>
+        <b><big>
+        "Centro de Vida Sensorial.\n"
+        "Cel: 3195270845\n"
+        "Correo: \nCentrovidasensorialsutatausa@gmail.com\n\n"
+
+        "Comisaría de Familia\n"
+        "Cel: 3212146913\n"
+        "Correo: \ncomisaria@sutatausa-cundinamarca.gov.co\n\n"
+
+        "Sisbén\n"
+        "Cel: 3133302330\n"
+        "Correo: \nsisben@sutatausa-cundinamarca.gov.co\n\n"
+
+        "Dirección de Protección y Desarrollo Social\n"
+        "Cel: 3125116111\n"
+        "Correo: \ndsocial@sutatausa-cundinamarca.gov.co\n\n"
+
+        "Coordinación Adulto Mayor\n"
+        "Cel: 3225833635\n"
+        "Correo: \nsutatausamayor@gmail.com \n\n"
+
+        "Familias en Acción \n"
+        "Cel: 3177264627 \n"
+        "Correo: \nfamiliaccion@sukatausa-cundinamarca.gov.co \n\n"
+
+        "Dirección de Cultura, Turismo, Recreación y Deporte \n"
+        "Cel: 322583132 \n"
+        "Correo: \ncultudeporte@sutatausa-cundinamarca.gov.co \n\n"
+
+        "Secretaría de Desarrollo Económico y Social \n"
+        "Cel: 3219876827 \n"
+        "Correa: \ndeconomico@sutatausa-cundinamarca.gov.co \n\n"
+
+        "Inspección de Policía \n"
+        "Cel: 3219876168 \n"
+        "Correo: \nipolicia@sutatausa-cundinamarca.gov.co \n\n"
+        </big>
+        </b>
+        </font>
+    </string>
+    <string name="action_settings">Settings</string>
+    </resources>
