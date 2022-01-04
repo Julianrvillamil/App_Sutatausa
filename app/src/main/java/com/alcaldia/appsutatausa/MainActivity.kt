@@ -17,7 +17,6 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    /** Called when the user taps the Contacto button*/
 
     fun contactoView(view: View){
         val intent = Intent(this, Email::class.java).apply{
@@ -25,14 +24,12 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-    /** Called when the user taps the Contactenos button*/
     fun contactenosView(view: View){
         val intent = Intent(this, Contactenos::class.java).apply{
 
         }
         startActivity(intent)
     }
-    /** Called when the user taps the Noticias button*/
     fun noticiasView(view: View){
         val intent = Intent(this, Noticias::class.java).apply{
 
@@ -40,7 +37,6 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-    /** Called when the user taps the Tramites button*/
     fun TramitesView(view: View){
         val intent = Intent(this, Tramites::class.java).apply{
 
@@ -48,7 +44,6 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-    /** Called when the user taps the Directorio button*/
     fun DirectorioView(view: View){
         val intent = Intent(this, Directorio::class.java).apply{
 
